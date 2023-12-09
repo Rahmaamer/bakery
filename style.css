@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position:relative;
+   /* background-color: transparent;*/
+   width: 100%;
+}
+.navbar{
+    position: absolute;
+    width: 80%;
+    position: fixed;
+
+   
+   
+}
+.logo{
+    color: aliceblue;
+    float: left;
+    margin-right: 100px;
+
+}
+.logo img{
+    width: 155px;
+    
+}
+.links{
+    float: right;
+
+}
+.links ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+}
+.links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+.links ul li a:hover{
+    color: #90774f;
+    
+}
+
+
+.banner img {
+    width: 100%;
+    height: 55vh;
+    
+}
+.banner-txt{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 92%;
+    left: 40px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#lm{
+    width: 120px;
+    height: 45px;
+    background-color: #8f784f;
+    color: white;
+    border: none;
+    
+}
+#lm:hover{
+    color: black;
+}
+
+#cu{
+    width: 120px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+    margin-left: 10px;
+}
+#cu:hover{
+    background-color: #8f784f;
+}
+
+/* }
+.clear{
+    height: 40px;
+} */
+
+/*our location section */
+
+.ourlocation{
+  background-color:#f9f9f7;
+   width: 100%;
+   display: flex;
+   /* flex-wrap: wrap; */
+   justify-content: space-between;
+    
+}
+
+
+ .ourlocation-txt{
+    width: 40%;
+     margin-top: 6%;
+     margin-left: 10%;
+    line-height: 190%; 
+   
+
+}
+.ourlocation-txt h2{
+
+    text-align: left;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ourlocation-txt p{
+    color:#b8b8b6;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+    
+}
+
+ .ourlocation-image img{
+   width: 55%;
+   margin-top: 6%;
+   margin-left: 10%;
+    
+}
+/*ourbaking section */
+.ourbaking-txt{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.ourbaking-txt p{
+    color: #8b8d92;
+    margin-top: 1%;
+  
+}
+.ourbaking .product{
+    width: 29%;
+    float: left;
+    margin-left: 50px;
+   
+}
+.ourbaking .product img{
+    width: 100%;
+    padding: 10px;
+}
+
+.ourbaking .product h2,p{
+    text-align: center;
+    margin-top: 3%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.ourbaking .product p{
+    color: #8b8d92;
+}
+/*footer*/
+.footer {
+    background-color: black;
+    margin-top: 39%;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  /*arrow button*/
+  
+#btn{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 999;
+    display: none;
+}
